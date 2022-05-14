@@ -19,7 +19,8 @@ const Pets = () => {
 
   return (
     <>
-      <div>This is the Pets view</div>
+      <h1>Pets</h1>
+      <p>Info about pets</p>
       <ul>{list}</ul>
     </>
   );
