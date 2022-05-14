@@ -6,4 +6,6 @@ Rails.application.routes.draw do
       resources :pets, only: [:index]
     end
   end
+
+  get '*path', to: 'pages#index', via: :all
 end
