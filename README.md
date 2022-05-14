@@ -22,3 +22,14 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+# Learning notes
+
+## Rails command line
+### To create the app
+`rails new pets --webpack=react --database=postgresql -T`
+### DB and models
+- `rails db:create`
+- `rails g model Pet name description birth_date:timestamp weight_kg:decimal{2-2}`
+- `rails g model PetImage image_url taken_at:timestamp pet:belongs_to`
+- `rails db:migrate`
